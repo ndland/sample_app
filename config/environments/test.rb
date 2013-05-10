@@ -36,7 +36,7 @@ SampleApp::Application.configure do
   config.active_support.deprecation = :stderr
 
   # speed up tests by lower BCrypt's cost function.
-  require 'BCrypt'
+require 'bcrypt'
   silence_warnings do
     BCrypt::Engine::DEFAULT_COST = BCrypt::Engine::MIN_COST
   end
