@@ -101,7 +101,7 @@ describe "Authentication" do
 				end
 			end
 
-			describe "in the Microspots controller" do
+			describe "in the Microposts controller" do
 				
 				describe "submitting to the create action" do
 					
